@@ -1,0 +1,54 @@
+git init - create an empty git repostitory or reinitialize an existing one
+
+git status 
+git status
+git add octocat.txt  (staging area)
+git status
+git commit -m "Add cute octocat story"
+git add '*.txt'
+
+git log  (list history of commits)
+
+git remote add origin git@github.com:thraddash/try_git.git (to push local repot to github server)
+
+git push -u origin master (name of our remote is origin, default local branch is master, -u tells Git to remember the parameter so you can run git push)
+
+git pull orgin master ( to check for changes in github repo)
+
+git diff Head (use Head to diff most recent commit)
+
+git add octofamily/octodog.txt
+
+git diff --staged ( see changes you just staged)
+
+git reset octofamily/octodog.txt (unstage files)
+
+git checkout -- octocat.txt (return to the last commit) 
+
+--------------------------------
+branching out (wehen developer work on feature/bug create a copy aka (branch) then merge them back to main master branch
+
+git branch clean_up (should see 2 local branch: a main branch master, new branch clean_up)
+
+git checkout clean_up
+
+git rm '*.txt' (remove all octocat)
+
+git status
+
+git commit -m "Remove all the cats"
+
+git checkout master (go back to master branch)
+
+===>> merge clean_up into master branch
+
+git merge clean_up
+
+===>> since you are done with clean_up branch you can delete the branch
+
+git branch -d clean_up
+
+==> push everything that yoube been working on back to your remote repo
+
+
+

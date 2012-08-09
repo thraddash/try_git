@@ -50,5 +50,9 @@ git branch -d clean_up
 
 ==> push everything that yoube been working on back to your remote repo
 
+### 
+git log
+git checkout -- .     #### unstage all files
+git reset checksum
 
 

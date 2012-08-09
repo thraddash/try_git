@@ -54,5 +54,6 @@ git branch -d clean_up
 git log
 git checkout -- .     #### unstage all files
 git reset SHA checksum
-
+head       | index   | working directory
+git commit | git add | vi file
 

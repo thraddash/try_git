@@ -53,6 +53,6 @@ git branch -d clean_up
 ### 
 git log
 git checkout -- .     #### unstage all files
-git reset checksum
+git reset SHA checksum
 
 

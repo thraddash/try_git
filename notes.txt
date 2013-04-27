@@ -9,7 +9,7 @@ git add '*.txt'
 
 git log  (list history of commits)
 
-git remote add origin git@github.com:thraddash/try_git.git (to push local repot to github server)
+git remote add origin git@github.com:thraddash/try_git.git (push local to github server)
 
 git push -u origin master (name of our remote is origin, default local branch is master, -u tells Git to remember the parameter so you can run git push)
 

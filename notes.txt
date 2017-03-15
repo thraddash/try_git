@@ -57,3 +57,14 @@ git reset SHA checksum
 head       | index   | working directory
 git commit | git add | vi file
 
+#### pull files from remote repo #####
+git config -l    (check git config setting, to see if remote repo has been added)
+git branch (check which branch you are currently on)
+git checkout "name of the branch"   (switch your branch)
+git diff orgin/mysql (compare the changes remote repository with current repository)
+
+git fetch (will download all recent changes, but will not put it with current checkout codes)
+git checkout orgin/mysql --path/to/filename (will checkout the particular file from the the downloaded changes (origin/mysql)
+git commit path/to/filename -m  (enter a message of for the changes)
+git log (list the history of commit changes)
+git push origin/mysql  (push changes back to a remote repo/ targeting branch mysql)

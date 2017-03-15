@@ -68,3 +68,5 @@ git checkout orgin/mysql --path/to/filename (will checkout the particular file f
 git commit path/to/filename -m  (enter a message of for the changes)
 git log (list the history of commit changes)
 git push origin/mysql  (push changes back to a remote repo/ targeting branch mysql)
+######
+git archive master |tar -x C --path/repostiory (remove git revision history, tar file, untar file to directory path)
